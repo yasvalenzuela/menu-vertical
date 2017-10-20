@@ -1,0 +1,58 @@
+body{
+	font-family: sans-serif;
+}
+
+nav {
+	/*outline: 1px solid red;*/
+	width: 200px;
+}
+
+ul {
+	/*outline: 1px solid yellow;*/
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+	line-height: 30px;
+}
+
+li {
+	/*outline: 1px solid blue;*/
+	background-color: #f5f5f0;
+}
+
+a {
+	/*outline: 1px solid green;*/
+	display: block;
+	text-decoration: none;
+	color: #000000;
+	padding-left: 10px;
+}
+
+a:hover {
+	background-color: #e0e0d1;
+}
+
+a:active {
+	background: #333;
+	color: #fff;
+}
+
+ul li:first-child {
+	background-color: #f9a91a
+}
+
+/*los estados de los enlaces:link, visited, hover, active*/
+/*love/hate para acordarse de el orden*/
+/*
+il li:first-child a {
+	color: #fff;
+}
+
+ul li:first-child a:hover{
+	color: #fff;
+}
+
+ul li:first-child a:active{
+	color: #000;
+}*/
